@@ -5,7 +5,12 @@
 :root {
   --background: #000000;
   --foreground: #ffffff;
-  --list-check: url(/list/check.svg)
+  --list-check: url(/list/check.svg);
+  
+  /* DevSH Brand Colors - customize these to match your logo exactly */
+  --devsh-primary: #14b8a6;  /* Teal-500 - primary brand accent */
+  --devsh-light: #2dd4bf;    /* Teal-400 - hover/light variant */
+  --devsh-dark: #0d9488;     /* Teal-600 - darker variant */
 }
 
 body {

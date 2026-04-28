@@ -12,6 +12,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // DevSH brand color - easily customizable
+        devsh: {
+          DEFAULT: "var(--devsh-primary)",
+          light: "var(--devsh-light)",
+          dark: "var(--devsh-dark)",
+        },
       },
     },
   },

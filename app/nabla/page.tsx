@@ -31,7 +31,7 @@ function GridImage({ src, unoptimized }: { src: string | StaticImport, unoptimiz
 
 export default function Page() {
     return (
-        <main className="container mx-auto flex flex-col px-12 overflow-y-auto snap-mandatory scroll-smooth">
+        <main className="container mx-auto flex flex-col px-4 sm:px-12 py-8 overflow-y-auto snap-mandatory scroll-smooth">
             <Slide>
                 <Image src={devshLogo} alt="Nabla Logo" className="aspect-square w-[240px] xl:w-[480px]"/>
             </Slide>

@@ -50,14 +50,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background">
       <body
         className={`${futuraPT.className} antialiased h-dvh`}
       >
         <Navbar/>
-        <div className="p-4">
-          {children}
-        </div>
+        {children}
         <Footer/>
       </body>
     </html>

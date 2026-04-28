@@ -58,7 +58,7 @@ function VulkanisedPhoto({ src, alt, priority = false }: { src: StaticImageData 
 
 export default function Page() {
     return (
-        <main className="container mx-auto max-sm:px-8 flex flex-col gap-4 sm:gap-8 sm:items-center h-full justify-center">
+        <main className="container mx-auto px-4 sm:px-8 flex flex-col gap-4 sm:gap-8 sm:items-center h-full justify-center py-8">
             <Chapter title="About Us">
                 <Paragraph>
                     DevSH Graphics Programming Sp. z O.O is a company focused on Graphics, GPU and High Performance Computing. Our consultants develop and maintain Renderers, Simulations and Compilers for our Clients, integrated into or working alongside their teams. We are not a Software House, we work very closely and synergize with our Clients&apos; engineers.

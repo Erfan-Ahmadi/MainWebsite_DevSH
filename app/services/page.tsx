@@ -98,7 +98,7 @@ function PastProject({company, companyWebsite, images, videos, projects}: PastPr
 
 export default function Page() {
     return (
-        <main className="container mx-auto flex flex-col items-center">
+        <main className="container mx-auto flex flex-col items-center px-4 py-8">
             <div>
                 <Chapter title="Experience and Offer">
                     <Paragraph>
